@@ -1,0 +1,13 @@
+data=[]
+name=input("enter your name").split('=')
+data.append(name)
+age=input("enter your age").split('=')
+data.append(age)
+language=input("enter your langauge").split('=')
+data.append(language)
+country=input("enter your country").split('=')
+data.append(country)
+print(data)
+print("type conversion")
+info=dict(data)
+print(info)

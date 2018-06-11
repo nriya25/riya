@@ -1,0 +1,6 @@
+l=list(map(int,input("enter sequence").split()))
+k=list(map(int,input("enter another sequence").split()))
+r=list(map(lambda x,y :x+y,l,k))
+print("list 1=",*l)
+print("list 2=",*k)
+print("list 3=",*r)
